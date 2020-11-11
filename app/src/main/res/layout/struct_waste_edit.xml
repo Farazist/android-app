@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_7sdp"
+    android:layout_marginRight="@dimen/_7sdp"
+    android:layout_marginBottom="@dimen/_7sdp"
+    android:background="#fafafa"
+    android:elevation="@dimen/_1sdp">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="right|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_weight="2"
+                android:background="#0000"
+                android:fontFamily="@font/persian"
+                android:gravity="right|center_vertical"
+                android:singleLine="false"
+                android:text="@string/name"
+                android:textColor="#000"
+                android:textSize="@dimen/_10sdp"
+                app:autoSizeMaxTextSize="@dimen/_10sdp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/recycle" />
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/persian"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:background="#0000"
+                android:stateListAnimator="@null"
+                android:text="@string/edit"
+                android:textColor="#558"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/txtUnit"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="match_parent"
+                android:background="#0000"
+                android:fontFamily="@font/persian"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

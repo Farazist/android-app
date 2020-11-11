@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context="project.activities.ActivityRules">
+
+        <TextView
+            android:id="@+id/txtRules"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/persian"
+            android:gravity="right|top"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_15sdp"
+            android:textColor="#111"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>

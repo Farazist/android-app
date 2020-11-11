@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_time_selection"
+        android:fontFamily="@font/fontawesome"
+        android:stateListAnimator="@null"
+        android:text="\uf078"
+        android:textColor="#003"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/persian"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="@dimen/_15sdp" />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_time_selection"
+        android:fontFamily="@font/fontawesome"
+        android:stateListAnimator="@null"
+        android:text="\uf077"
+        android:textColor="#003"
+        android:textSize="@dimen/_12sdp" />
+</LinearLayout>

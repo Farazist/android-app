@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/ticket_count_shape"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:minWidth="@dimen/_25sdp"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:singleLine="true"
+            android:text="+1"
+            android:textColor="#fff"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/fail_shape"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_3sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingRight="@dimen/_3sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:singleLine="true"
+            android:text="بسته شده"
+            android:textColor="#fff"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/persian"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="1399/2/4"
+            android:textColor="#111"
+            android:textSize="@dimen/_9sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="مشکل فنی"
+            android:textColor="#111"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/persian"
+            android:gravity="right|center_vertical"
+            android:singleLine="false"
+            android:text="@string/title"
+            android:textColor="#111"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSubject"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="سوکت"
+            android:textColor="#111"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/persian"
+            android:gravity="right|center_vertical"
+            android:singleLine="false"
+            android:text="@string/subject"
+            android:textColor="#111"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

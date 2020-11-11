@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="20-22"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="18-20"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="16-18"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="14-16"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="12-14"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="10-12"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/button_work_time_shape1"
+            android:fontFamily="@font/persian"
+            android:gravity="center"
+            android:text="8-10"
+            android:textColor="#333"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txtDay"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/persian"
+            android:gravity="right|center_vertical"
+            android:text="@string/aboutUs"
+            android:textColor="#000"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

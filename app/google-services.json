@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "347623345883",
+    "firebase_url": "https://farazist-9418c.firebaseio.com",
+    "project_id": "farazist-9418c",
+    "storage_bucket": "farazist-9418c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347623345883:android:87a8fd38dde6b0905d86fe",
+        "android_client_info": {
+          "package_name": "ir.farazist.farazist_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347623345883-3t851qkp16vcpt96ejq51h30jrigr57r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.farazist.farazist_app",
+            "certificate_hash": "ba6d71b9d5511aa89754c0f3421934ace2257b9b"
+          }
+        },
+        {
+          "client_id": "347623345883-ss7rq4o7p08ttam39q7gp1uhjq268jh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDURHMPbcixzgZ7wLZOBPzeFsDCMQbwjzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347623345883-ss7rq4o7p08ttam39q7gp1uhjq268jh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
